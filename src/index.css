@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  background-color: #020205 !important;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* --- EFFETTO RUNNING BAND --- */
+@keyframes border-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.glow-border-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 2px;
+  border-radius: 20px;
+  background: #111;
+  /* Bordo di base */
+  display: flex;
+}
+
+.glow-border-inner {
+  position: absolute;
+  width: 400%;
+  height: 400%;
+  top: -150%;
+  left: -150%;
+  background: conic-gradient(from 0deg, transparent 0%, #00f2ff 10%, #7000ff 20%, transparent 30%, transparent 100%);
+  animation: border-rotate 4s linear infinite;
+}
+
+.btn-content {
+  position: relative;
+  z-index: 10;
+  background: #020205;
+  /* Forza il nero solido per non far passare i puntini attraverso il pulsante */
+  border-radius: 18px;
+  display: block;
+  padding: 16px 32px;
+  width: 100%;
+  text-align: center;
+}
