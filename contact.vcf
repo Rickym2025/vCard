@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Riccardo Modena
+N;CHARSET=UTF-8:Modena;Riccardo;;;
+GENDER:M
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:modena.riccardo@gmail.com
+TEL;TYPE=CELL:+39 349 5258418
+URL;type=WORK;CHARSET=UTF-8:https://riccardo-studio.vercel.app/
+X-SOCIALPROFILE;TYPE=facebook:https://www.facebook.com/riccardo.modena.792
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/riccardo-modena-13918a61/
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/riccardo_mode_/
+REV:2026-04-16T10:52:45.205Z
+END:VCARD
